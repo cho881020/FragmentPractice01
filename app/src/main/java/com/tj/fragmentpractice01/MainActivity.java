@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.tj.fragmentpractice01.adapters.PagerAdapter;
 import com.tj.fragmentpractice01.databinding.ActivityMainBinding;
 import com.tj.fragmentpractice01.fragments.FragmentTwo;
 
@@ -44,6 +45,9 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void setValues() {
+
+        PagerAdapter pagerAdapter = new PagerAdapter(getSupportFragmentManager(), 3);
+        act.viewPager.setAdapter(pagerAdapter);
 
     }
 
