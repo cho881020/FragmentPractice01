@@ -31,6 +31,10 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 act.viewPager.setCurrentItem(0);
+
+                act.changeFragOneBtn.setText("현재 선택됨");
+                act.changeFragTwoBtn.setText("2번 프래그먼트");
+                act.changeFragThreeBtn.setText("3번 프래그먼트");
             }
         });
 
@@ -49,6 +53,9 @@ public class MainActivity extends BaseActivity {
 
                 act.viewPager.setCurrentItem(1);
 
+                act.changeFragOneBtn.setText("1번 프래그먼트");
+                act.changeFragTwoBtn.setText("현재 선택됨");
+                act.changeFragThreeBtn.setText("3번 프래그먼트");
 
             }
         });
@@ -58,6 +65,11 @@ public class MainActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 act.viewPager.setCurrentItem(2);
+
+
+                act.changeFragOneBtn.setText("1번 프래그먼트");
+                act.changeFragTwoBtn.setText("2번 프래그먼트");
+                act.changeFragThreeBtn.setText("현재 선택됨");
             }
         });
 
