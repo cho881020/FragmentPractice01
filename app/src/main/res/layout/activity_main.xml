@@ -20,5 +20,11 @@
             android:layout_height="300dp"
             class="com.tj.fragmentpractice01.fragments.FragmentTwo" />
 
+        <!--세번째 프래그먼트 생성.-->
+        <!--세로는 150dp-->
+        <!--배경은 #00FF00 초록색.-->
+        <!--JAVA + 데이터바인딩으로 문구 표현-->
+
+
     </LinearLayout>
 </layout>
